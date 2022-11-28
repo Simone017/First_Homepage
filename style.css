@@ -1,0 +1,109 @@
+body 
+.icons{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ggg{
+    width:100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image:  url('twice.jpg');
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 128, .5);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+    
+
+}
+.search-bar input{
+    background-color: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+::placeholder{
+    color: black;
+}
+
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+    cursor: pointer;
+}
+.icons ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.icons ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.icons ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.icons ul li .fa:hover {
+    color: #ffffff;
+}
+.icons ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.icons ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.icons ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.icons ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.icons ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.icons ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.icons ul li:nth-child(5) a:hover {
+    background-color: rgb(129, 183, 26);
+}
